@@ -1,0 +1,37 @@
+digraph AST {
+  node0 [label="Program"];
+  node0 -> node1;
+  node1 [label="Function: main"];
+  node1 -> node2;
+  node2 [label="Type: int"];
+  node1 -> node3;
+  node3 [label="Compound"];
+  node3 -> node4;
+  node4 [label="Declaration: var_decl"];
+  node4 -> node5;
+  node5 [label="Type: int"];
+  node4 -> node6;
+  node6 [label="Operator: ="];
+  node6 -> node7;
+  node7 [label="Identifier: x"];
+  node6 -> node8;
+  node8 [label="Constant: 5"];
+  node3 -> node9;
+  node9 [label="If"];
+  node9 -> node10;
+  node10 [label="Operator: >"];
+  node10 -> node11;
+  node11 [label="Identifier: x"];
+  node10 -> node12;
+  node12 [label="Constant: 3"];
+  node9 -> node13;
+  node13 [label="Compound"];
+  node13 -> node14;
+  node14 [label="Return"];
+  node14 -> node15;
+  node15 [label="Identifier: x"];
+  node9 -> node16;
+  node16 [label="Return"];
+  node16 -> node17;
+  node17 [label="Constant: 0"];
+}
