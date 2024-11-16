@@ -130,5 +130,5 @@ Here is an example of how to use the project:
 
 ## Contributors
 
-<a href="https://github.com/antrxc"><img style="border-radius: 50%; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/132219079?v=4" alt="antrxc"/></a>
-<a href="https://github.com/Arthi-Ramasamy"><img style="border-radius: 50%; width: 100px; height: 100px;" src="https://avatars.githubusercontent.com/u/153719767?v=4" alt="Arthi-Ramasamy"/></a>
+<a href="https://github.com/antrxc"><img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/132219079?v=4" width="100" height="100" alt="antrxc"/></a>
+<a href="https://github.com/Arthi-Ramasamy"><img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/153719767?v=4" width="100" height="100" alt="Arthi-Ramasamy"/></a>
